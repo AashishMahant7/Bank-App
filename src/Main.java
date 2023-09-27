@@ -13,7 +13,7 @@ public class Main {
         System.out.println(mesaage);
         System.out.println("enter withdraw");
         int  money=sc.nextInt();
-        System.out.println("enter your password");
+        System.out.println(" please enter your password");
         String pass=sc.next();
         System.out.println(user.withdrawMoney(money,pass));
         System.out.println(user.calculateInterest(10));
